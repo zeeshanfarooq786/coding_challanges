@@ -13,7 +13,6 @@ class AttendanceUploadController extends Controller
     {
         $attendances = Attendance::all();
         return view('uploadAttendance', ['attendances' => $attendances]);
-        
     }
 
     public function uploadAttendance(Request $request)
