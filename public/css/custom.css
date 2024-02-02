@@ -1,0 +1,33 @@
+.in_active{
+    color: #8c8d93 !important;
+}
+.btn-cross{
+    position: absolute;
+    top: 43px;
+    left: 69px;
+    background: none;
+    border: none;
+    color: #c31212;
+    font-weight: bold;
+}
+.card-img{
+    margin-top: -10px !important;
+    max-width: 35%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 6px solid #e2e7ec;
+    float: right;
+}
+.imgPreview{
+    margin-top: 6px !important;
+    max-width: 100px;
+    border: 10px solid #e2e7ec;
+    border-radius: 15px;
+}
+body{
+    min-height: 500px !important;
+}
+@font-face {
+    font-family: signature;
+    src: url('../fonts/signature.ttf');
+}
